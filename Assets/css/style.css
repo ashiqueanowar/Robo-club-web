@@ -1,0 +1,21 @@
+/*#############################
+  NAVIGATION
+#############################*/
+
+.navbar .main {
+    position: absolute;
+    width: 2160.51px;
+    height: 535.91px;
+    left: -240.51px;
+    top: -188px;
+    background-color: grey;
+}
+
+.navbarbg {
+    position: absolute;
+    width: 1920px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
