@@ -2,8 +2,8 @@
   NAVIGATION
 #############################*/
 
-.navbar .main {
-    position: absolute;
+.main {
+    position: relative;
     width: 2160.51px;
     height: 535.91px;
     left: -240.51px;
