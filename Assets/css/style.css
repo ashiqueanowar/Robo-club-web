@@ -60,7 +60,9 @@ li,a,button{
     background: #ffffff;
     transform: rotate(60deg);
 }
+.logo{
 
+}
 .name{
   cursor: pointer;
   margin-right: 150px;
