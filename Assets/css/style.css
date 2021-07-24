@@ -13,7 +13,7 @@ li,a,button{
 #############################*/
 
 .main {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 535.91px;
 
@@ -21,8 +21,8 @@ li,a,button{
 }
 .polygon_3{
   position: absolute;
-  width: 459.29px;
-  height: 505.43px;
+  width: 47vh;
+  height: 51vh;
   left: -230px;
   top: -32.8vh;
 
@@ -31,8 +31,8 @@ li,a,button{
   }
 .polygon_2{
   position: absolute;
-  width: 442.52px;
-  height: 507.02px;
+  width: 45vh;
+  height: 52vh;
   left: -197px;
   top: -34.5vh;
   
@@ -45,25 +45,25 @@ li,a,button{
     height: 69px;
     left: 0px;
     top: 0px;
-    background: #3d3535;
+    background: #ffffff;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .polygon_1{
     position: absolute;
-    width: 392.9px;
-    height: 416.04px;
+    width: 40vh;
+    height: 42.5vh;
     left: -115px;
     top: -31vh;
 
-    background: #140202;
+    background: #ffffff;
     transform: rotate(60deg);
 }
 
 .name{
   cursor: pointer;
-  margin-right: 200px;
+  margin-right: 150px;
 }
 .nav_links{
   list-style: none;
@@ -71,15 +71,16 @@ li,a,button{
 .nav_links li{
   display: inline-block;
   padding: 0 20px;
+  font-size: 1.2rem;
 
 }
 .nav_links li a{
   transition: all 0.3s ease 0s;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 .nav_links li a:hover{
-  color:aqua;
+  color:rgb(59, 148, 148);
 }
 
 button{
@@ -89,6 +90,7 @@ button{
   border-radius:50px;
   cursor: pointer;
   transition:all 0.3s ease 0s;
+  color:white;
 }
 button:hover{
   background-color:rgba(0,136,169,0.8);
