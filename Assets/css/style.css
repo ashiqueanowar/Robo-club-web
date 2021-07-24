@@ -166,7 +166,13 @@ button:hover{
 
 .col1{
 
-width: 50%;
+flex: 1;
+
+
+}
+.col2{
+
+    flex: 1;
 
 
 }
