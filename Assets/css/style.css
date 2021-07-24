@@ -177,18 +177,7 @@ flex: 1;
 
 }
 h1, h2 {
-    font-size: 70px;
-    text-align: center;
-    font-weight: 200;
     margin: 30px 0;
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(#777, #111);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-user-select: -moz-none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
   }
   
   h2 {
