@@ -10,7 +10,16 @@
     top: -188px;
     background-color: grey;
 }
+.polygon_3{
+  position: absolute;
+  width: 459.29px;
+  height: 505.43px;
+  left: 285.6px;
+  top: -188px;
 
+  background: #735E5E;
+  transform: rotate(80.57deg);
+  }
 .navbarbg {
     position: absolute;
     width: 1920px;
