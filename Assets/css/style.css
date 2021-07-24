@@ -19,3 +19,64 @@
     top: 0px;
     background: #FFFFFF;
 }
+
+
+/*#############################
+  Home
+#############################*/
+
+/* home sec styling */
+.home{
+    padding-left: 8em;
+    display: flex;
+    background: url("/Assets/images/Home.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.home .home-content .text-1{
+    font-size: 49px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: #3CA67F;
+    font-weight: 800;
+}
+.home .home-content a{
+    display: inline-block;
+    background: #3CA67F;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #3CA67F;
+    transition: all 0.3s ease;
+    align-items: center;
+}
+.home .home-content a:hover{
+    color: #3CA67F;
+    background: none;
+}
+.home_img{
+    max-width: 35%;
+    padding: 10px;
+}
