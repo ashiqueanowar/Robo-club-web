@@ -8,6 +8,9 @@ li,a,button{
   font-weight: 500;
   colour: #fff;
 }
+.limit-width{
+  width: 80%;
+}
 /*#############################
   NAVIGATION
 #############################*/
