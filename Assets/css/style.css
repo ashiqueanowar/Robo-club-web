@@ -107,7 +107,7 @@ button:hover{
 .home{
     padding-left: 8em;
     display: flex;
-    background: url("/Assets/images/Home.png") no-repeat center;
+    background: url("/Assets/images/home.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
