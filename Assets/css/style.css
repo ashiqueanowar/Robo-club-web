@@ -172,6 +172,188 @@ button:hover{
     padding: 10px;
 }
 
+
+/* Glitch */
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+ position: absolute;
+ left: 0;
+ top: 150px;
+}
+.wrapper h1.glitch {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+  position: relative;
+  font-size: 100px;
+  padding: 30px;
+}
+.wrapper h1.glitch::before, .wrapper h1.glitch::after {
+  padding: 30px;
+  color: white;
+  content: "AEC Robo Club";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  overflow: hidden;
+  top: 0;
+}
+.wrapper h1.glitch::before {
+  left: 3px;
+  text-shadow: -2px 0 red;
+  animation-name: glitch-animation-1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse-alternate;
+}
+.wrapper h1.glitch::after {
+  left: -3px;
+  text-shadow: -2px 0 blue;
+  animation-name: glitch-animation-2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse-alternate;
+}
+
+@keyframes glitch-animation-1 {
+  0% {
+    clip: rect(51px, 850px, 59px, 30px);
+  }
+  5% {
+    clip: rect(136px, 850px, 120px, 30px);
+  }
+  10% {
+    clip: rect(20px, 850px, 119px, 30px);
+  }
+  15% {
+    clip: rect(82px, 850px, 66px, 30px);
+  }
+  20% {
+    clip: rect(122px, 850px, 121px, 30px);
+  }
+  25% {
+    clip: rect(45px, 850px, 90px, 30px);
+  }
+  30% {
+    clip: rect(52px, 850px, 48px, 30px);
+  }
+  35% {
+    clip: rect(22px, 850px, 65px, 30px);
+  }
+  40% {
+    clip: rect(81px, 850px, 62px, 30px);
+  }
+  45% {
+    clip: rect(43px, 850px, 40px, 30px);
+  }
+  50% {
+    clip: rect(149px, 850px, 83px, 30px);
+  }
+  55% {
+    clip: rect(17px, 850px, 49px, 30px);
+  }
+  60% {
+    clip: rect(23px, 850px, 27px, 30px);
+  }
+  65% {
+    clip: rect(56px, 850px, 120px, 30px);
+  }
+  70% {
+    clip: rect(54px, 850px, 63px, 30px);
+  }
+  75% {
+    clip: rect(148px, 850px, 12px, 30px);
+  }
+  80% {
+    clip: rect(90px, 850px, 148px, 30px);
+  }
+  85% {
+    clip: rect(38px, 850px, 96px, 30px);
+  }
+  90% {
+    clip: rect(149px, 850px, 13px, 30px);
+  }
+  95% {
+    clip: rect(38px, 850px, 77px, 30px);
+  }
+  100% {
+    clip: rect(72px, 850px, 134px, 30px);
+  }
+}
+@keyframes glitch-animation-2 {
+  0% {
+    clip: rect(143px, 850px, 76px, 30px);
+  }
+  5% {
+    clip: rect(130px, 850px, 84px, 30px);
+  }
+  10% {
+    clip: rect(103px, 850px, 6px, 30px);
+  }
+  15% {
+    clip: rect(134px, 850px, 3px, 30px);
+  }
+  20% {
+    clip: rect(91px, 850px, 148px, 30px);
+  }
+  25% {
+    clip: rect(56px, 850px, 43px, 30px);
+  }
+  30% {
+    clip: rect(145px, 850px, 119px, 30px);
+  }
+  35% {
+    clip: rect(83px, 850px, 111px, 30px);
+  }
+  40% {
+    clip: rect(20px, 850px, 78px, 30px);
+  }
+  45% {
+    clip: rect(8px, 850px, 108px, 30px);
+  }
+  50% {
+    clip: rect(65px, 850px, 67px, 30px);
+  }
+  55% {
+    clip: rect(145px, 850px, 93px, 30px);
+  }
+  60% {
+    clip: rect(101px, 850px, 5px, 30px);
+  }
+  65% {
+    clip: rect(53px, 850px, 37px, 30px);
+  }
+  70% {
+    clip: rect(84px, 850px, 32px, 30px);
+  }
+  75% {
+    clip: rect(6px, 850px, 2px, 30px);
+  }
+  80% {
+    clip: rect(12px, 850px, 8px, 30px);
+  }
+  85% {
+    clip: rect(124px, 850px, 58px, 30px);
+  }
+  90% {
+    clip: rect(15px, 850px, 48px, 30px);
+  }
+  95% {
+    clip: rect(87px, 850px, 61px, 30px);
+  }
+  100% {
+    clip: rect(111px, 850px, 146px, 30px);
+  }
+}
+
 /*#############################
   About
 #############################*/
