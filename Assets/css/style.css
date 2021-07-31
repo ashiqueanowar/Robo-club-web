@@ -1750,15 +1750,19 @@ body .container .card:nth-child(4) .face.face2 {
   height: 100vh;
   
 }
+.incharge-pic{
 
+  flex: 1;
+
+}
 .incharge-box{
 
+
+  flex: 1;
   background-color: white;
   height: 60vh;
   width: 40%;
-  position: absolute;
-  top: 315%;
-  left: 50%;
+  
 
 
 }
