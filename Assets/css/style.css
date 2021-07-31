@@ -1736,3 +1736,29 @@ body .container .card:nth-child(4) .face.face2 {
   background-image: linear-gradient(40deg, #00fffc 0%, #fc00ff 45%, #fffc00 100%);
   border-radius: 15px;
 }
+
+
+/*#############################
+  Updates
+#############################*/
+
+.incharge{
+
+  
+  display: flex;
+  background-color: #D1BCBC ;
+  height: 100vh;
+  
+}
+
+.incharge-box{
+
+  background-color: white;
+  height: 60vh;
+  width: 40%;
+  position: absolute;
+  top: 315%;
+  left: 50%;
+
+
+}
