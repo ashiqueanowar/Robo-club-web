@@ -1715,7 +1715,7 @@ body .container .card:nth-child(4) .face.face2 {
 
 
 /*#############################
-  Updates
+  incharge
 #############################*/
 
 .incharge{
@@ -1739,6 +1739,18 @@ body .container .card:nth-child(4) .face.face2 {
   height: 60vh;
   width: 40%;
   
+
+
+}
+
+
+/*#############################
+  PBE
+#############################*/
+
+.pbe{
+
+  height: 100vh;
 
 
 }
