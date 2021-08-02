@@ -43,17 +43,13 @@ li,a,button{
 
     background: #ffffff;
     transform: rotate(60deg);
-      box-shadow: 0 8px 6px -6px rgb(114, 113, 113);
+    box-shadow: 0 8px 6px -6px rgb(114, 113, 113);
 }
 .bg{
 
 }
 .logo{
-  position: absolute;
-  top:-85px;
-  left:-55px;
-  transform: scale(11%) rotate(300deg);
-  z-index: 1000;
+  transform: scale(.1);
 }
 .name{
   cursor: pointer;
