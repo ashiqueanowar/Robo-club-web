@@ -21,26 +21,6 @@ li,a,button{
     top: 0px;
     
 }
-/* .polygon_3{
-  position: absolute;
-  width: 47vh;
-  height: 51vh;
-  left: -230px;
-  top: -32.8vh;
-
-  background: #735E5E;
-  transform: rotate(50deg);
-  }
-.polygon_2{
-  position: absolute;
-  width: 45vh;
-  height: 52vh;
-  left: -197px;
-  top: -34.5vh;
-  
-  background: #AA9898;
-  transform: rotate(55deg);
-} */
 .navbarbg {
     position: absolute;
     width: 100%;
