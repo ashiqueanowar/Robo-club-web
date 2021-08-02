@@ -1,0 +1,4 @@
+new\node_modules\
+new/node_modules/
+new/node_modules/.bin/acorn
+*.js
