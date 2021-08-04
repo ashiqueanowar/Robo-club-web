@@ -1642,7 +1642,7 @@ body .flexrow .cards:nth-child(4) .face.face2 {
   border-radius: 15px;
 }
 
-body .container {
+body .container2 {
   max-width: 100vw;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -1650,7 +1650,7 @@ body .container {
   margin: 0 auto;
   padding: 0 0;
 }
-body .container .card {
+body .container2 .card {
   position: relative;
   width: 17vw;
   height: 22.7vw;
@@ -1660,7 +1660,7 @@ body .container .card {
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
-body .container .card .face {
+body .container2 .card .face {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1670,33 +1670,33 @@ body .container .card .face {
   justify-content: center;
   align-items: center;
 }
-body .container .card .face.face1 {
+body .container2 .card .face.face1 {
   box-sizing: border-box;
   padding: 20px;
 }
-body .container .card .face.face1 h2 {
+body .container2 .card .face.face1 h2 {
   margin: 0;
   padding: 0;
 }
-body .container .card .face.face1 .java {
+body .container2 .card .face.face1 .java {
   background-color: #fffc00;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-body .container .card .face.face1 .python {
+body .container2 .card .face.face1 .python {
   background-color: #00fffc;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-body .container .card .face.face1 .cSharp {
+body .container2 .card .face.face1 .cSharp {
   background-color: #fc00ff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-body .container .card .face.face2 {
+body .container2 .card .face.face2 {
   transition: 0.5s;
 }
-body .container .card .face.face2 h2 {
+body .container2 .card .face.face2 h2 {
   margin: 0;
   padding: 0;
   font-size: 10rem;
@@ -1705,25 +1705,25 @@ body .container .card .face.face2 h2 {
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
-body .container .card:hover .face.face2 {
+body .container2 .card:hover .face.face2 {
   height: 60px;
 }
-body .container .card:hover .face.face2 h2 {
+body .container2 .card:hover .face.face2 h2 {
   font-size: 2rem;
 }
-body .container .card:nth-child(1) .face.face2 {
+body .container2 .card:nth-child(1) .face.face2 {
   background-image: linear-gradient(40deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%);
   border-radius: 15px;
 }
-body .container .card:nth-child(2) .face.face2 {
+body .container2 .card:nth-child(2) .face.face2 {
   background-image: linear-gradient(40deg, #fc00ff 0%, #00fffc 45%, #fffc00 100%);
   border-radius: 15px;
 }
-body .container .card:nth-child(3) .face.face2 {
+body .container2 .card:nth-child(3) .face.face2 {
   background-image: linear-gradient(40deg, #00fffc 0%, #fc00ff 45%, #fffc00 100%);
   border-radius: 15px;
 }
-body .container .card:nth-child(4) .face.face2 {
+body .container2 .card:nth-child(4) .face.face2 {
   background-image: linear-gradient(40deg, #00fffc 0%, #fc00ff 45%, #fffc00 100%);
   border-radius: 15px;
 }
@@ -1735,27 +1735,16 @@ body .container .card:nth-child(4) .face.face2 {
 
 .incharge{
 
-  
-  display: flex;
+  display:flex;
+  align-items: center;
   background-color: #D1BCBC ;
   height: 100vh;
   
 }
-.incharge-pic{
-
-  flex: 1;
-
-}
-.incharge-box{
-
-
-  flex: 1;
-  background-color: white;
-  height: 60vh;
-  width: 40%;
-  
-
-
+.textbox{
+  display:flex;
+  align-items: center;
+  background-color: #FFFFFF;
 }
 
 
@@ -1767,9 +1756,18 @@ body .container .card:nth-child(4) .face.face2 {
 
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
-
+.flex-body{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.flex-card{
+  width: 33%;
+}
 .slide-container {
   margin: auto;
    width: 600px; 
