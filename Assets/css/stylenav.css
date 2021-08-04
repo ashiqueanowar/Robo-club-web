@@ -119,7 +119,7 @@ section  {
   padding:3em 10em 3em 10em;
 }
 
-h1{
+.navbar1 h1{
   color: #111; 
   font-family: 'Helvetica Neue', sans-serif; 
   font-size: 200px; 
@@ -130,13 +130,13 @@ h1{
   margin: 0;
 }
 
-p {
+.navbar1 p {
   color: #111; 
   font-family: 'Calibri', sans-serif; 
   font-size: 25px; 
   line-height: 1.5;
 }
 
-hr {
+.navbar1 hr {
   background-color: #000;
 }
