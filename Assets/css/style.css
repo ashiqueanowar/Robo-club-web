@@ -1675,6 +1675,7 @@ body .container .card:nth-child(4) .face.face2 {
   display: flex;
 
 }
+
 .slide-container {
   margin: auto;
    width: 600px; 
@@ -1692,10 +1693,10 @@ body .container .card:nth-child(4) .face.face2 {
 .clash-card {
   background: white;
   width: 300px;
-  
+  display: inline-block;
   margin: auto;
   border-radius: 19px;
-  
+  position: relative;
   text-align: center;
   box-shadow: -1px 15px 30px -12px black;
   z-index: 9999;
@@ -1707,7 +1708,7 @@ body .container .card:nth-child(4) .face.face2 {
   margin-bottom: 35px;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-}=0-9
+}
 
 .clash-card__image--barbarian {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");
