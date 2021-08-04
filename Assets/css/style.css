@@ -10,12 +10,6 @@ li,a,button{
 }
 
 /*#############################
-  NAVIGATION
-#############################*/
-
-
-
-/*#############################
   Home
 #############################*/
 
@@ -78,15 +72,15 @@ li,a,button{
 
 /* Glitch */
 
-.wrapper {
+.wrapper1 {
   width: 100%;
   height: 100%;
   display: flex;
- position: absolute;
- left: 0;
- top: 150px;
+  position: absolute;
+  left: 0;
+  top: 150px;
 }
-.wrapper h1.glitch {
+.wrapper1 h1.glitch {
   color: white;
   font-family: sans-serif;
   font-weight: 800;
@@ -94,7 +88,7 @@ li,a,button{
   font-size: 100px;
   padding: 30px;
 }
-.wrapper h1.glitch::before, .wrapper h1.glitch::after {
+.wrapper1 h1.glitch::before, .wrapper h1.glitch::after {
   padding: 30px;
   color: white;
   content: "AEC Robo Club";
@@ -105,8 +99,8 @@ li,a,button{
   overflow: hidden;
   top: 0;
 }
-.wrapper h1.glitch::before {
-  left: 3px;
+.wrapper1 h1.glitch::before {
+  left: -29px;
   text-shadow: -2px 0 red;
   animation-name: glitch-animation-1;
   animation-duration: 2s;
@@ -115,7 +109,7 @@ li,a,button{
   animation-iteration-count: infinite;
   animation-direction: reverse-alternate;
 }
-.wrapper h1.glitch::after {
+.wrapper1 h1.glitch::after {
   left: -3px;
   text-shadow: -2px 0 blue;
   animation-name: glitch-animation-2;
