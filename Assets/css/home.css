@@ -7,7 +7,7 @@ canvas {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #00356B;
+    background: url("/Assets/images/home.jpg");
   }
   
   .text {
