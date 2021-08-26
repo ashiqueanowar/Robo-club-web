@@ -1,0 +1,313 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+/*#############################
+  slider
+#############################*/
+
+html, body, main{
+    width: 100%;
+    height: 100%;
+    margin: 10;
+    padding: 10;
+  }
+.slider{
+    
+}
+.slider h2{
+    text-align:center;
+    position: relative;
+    top: 10%;
+}
+
+#carousel{
+    position: relative;
+    height: 400px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+  }
+  
+  #carousel > div.slideImg{
+    position: absolute;
+    opacity: 0;
+  }
+  
+  #carousel > div > img{
+    width: 400px;
+    transition: width 1s;
+  }
+  
+  #carousel > div.hideLeft{
+    left: 0%;
+    opacity: 0;
+    transition: transform 1s, left 1s, opacity 1s;
+    transform: translateY(50%) translateX(-50%);
+  }
+  
+  #carousel > div.hideLeft > img{
+    width: 200px;
+  }
+  
+  #carousel > div.hideRight{
+    left: 100%;
+    transition: transform 1s, left 1s, opacity 1s;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+  }
+  
+  #carousel > div.hideRight > img{
+    width: 200px;
+  }
+  
+  #carousel > div.prev{
+    z-index: 5;
+    left: 30%;
+    transform: translateY(50px) translateX(-50%);
+    opacity: 1;
+    transition: transform 1s, left 1s, opacity 1s;
+  }
+  
+  #carousel > div.prev > img{
+    width: 300px;
+  }
+  
+  #carousel > div.prevLeftSecond{
+    z-index: 4;
+    left: 15%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+    transition: transform 1s, left 1s, opacity 1s;
+  }
+  
+  #carousel > div.prevLeftSecond > img{
+    width: 200px;
+  }
+  
+  #carousel > div.selected{
+    z-index: 10;
+    left: 50%;
+    transition: transform 1s, left 1s, opacity 1s;
+    opacity: 1;
+    transform: translateY(0px) translateX(-50%);
+  }
+  
+  #carousel > div.next{
+    z-index: 5;
+    left: 70%;
+    transition: transform 1s, left 1s, opacity 1s;
+    opacity: 1;
+    transform: translateY(50px) translateX(-50%);
+  }
+  
+  #carousel > div.next > img{
+    width: 300px;
+  }
+  
+  #carousel > div.nextRightSecond{
+    z-index: 4;
+    left: 85%;
+    transition: transform 1s, left 1s, opacity 1s;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+  }
+  
+  #carousel > div.nextRightSecond > img{
+    width: 200px;
+  }
+  
+  
+  div.positionBtn{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+  }
+  
+  #prev, #next{
+      background: #272727;
+      color: #ffffff;
+      border: 0px;
+      font-weight: bold;
+      font-size: 22px;
+      margin: 0px;
+      opacity: 0.6;
+  } 
+  
+  #prev > span, #next >span{
+      width: 100px;
+      padding: 15px;
+      display: block;
+  }
+    
+  #prev{
+    text-align: right;
+    border-radius: 100% 0px 0px 100%!important;
+  }
+  
+  #next{
+    text-align: left;
+    border-radius: 0px 100% 100% 0px!important;
+  }
+  
+  #prev:hover, #next:hover{
+    opacity: 1;
+  }
+  
+  #prev:focus, #next:focus{
+    border: 0px;
+  }
+
+ /*#############################
+  gallery
+#############################*/
+
+* {
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    transform-origin: top left;
+  }
+  
+  .gallery {
+    /* https://tobiasahlin.com/blog/masonry-with-css/ */
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    overflow: hidden;
+    height: 310vw;
+    /* Re-order items into rows */
+    /* Force new columns */
+  }
+  .gallery .gallery-image {
+    width: 33.3%;
+  }
+  .gallery .gallery-image[data-flipping] {
+    opacity: 1;
+    z-index: 3;
+  }
+  .gallery .gallery-image:nth-child(3n+1) {
+    order: 1;
+  }
+  .gallery .gallery-image:nth-child(3n+2) {
+    order: 2;
+  }
+  .gallery .gallery-image:nth-child(3n) {
+    order: 3;
+  }
+  .gallery::before, .gallery::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+  }
+  
+  .gallery-image {
+    margin: 0;
+    display: block;
+    position: relative;
+  }
+  .gallery-image img {
+    display: block;
+    width: 100%;
+  }
+  .gallery-image figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    text-shadow: 0 0 1px #000;
+    opacity: 0.8;
+    padding: 1em;
+    text-align: left;
+    transition: opacity 0.4s linear;
+    font-family: monospace;
+  }
+  .gallery-image:hover figcaption {
+    opacity: 1;
+  }
+  
+  .detail {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(25, 25, 25, 0);
+    box-shadow: 0 0 30px #000;
+    display: flex;
+    pointer-events: none;
+    transition: background 0.3s linear;
+  }
+  .detail .gallery-image {
+    padding: 5vmin;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .detail .gallery-image img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .detail .gallery-image figcaption {
+    display: none;
+  }
+  
+  [data-state=detail] .detail {
+    background: rgba(25, 25, 25, 0.85);
+    pointer-events: auto;
+  }
+  [data-state=detail] .detail .gallery-image {
+    opacity: 1;
+  }
+  
+  [data-state=gallery] .detail .gallery-image {
+    opacity: 0;
+    transition: none;
+  }
+  
+  /* ---------------------------------- */
+  body {
+    background: black;
+  }
+  
+  #app {
+    pointer-events: none;
+  }
+  #app .gallery .gallery-image {
+    pointer-events: auto;
+  }
+  
+  .gallery-image {
+    transition: opacity 0.5s linear;
+  }
+  
+  #app:hover .gallery .gallery-image {
+    opacity: 0.3;
+  }
+  #app:hover .gallery .gallery-image[data-flipping],
+  #app:hover .gallery .gallery-image:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+  }
