@@ -12,6 +12,10 @@ li,a,button{
   display: flex;
   justify-content: center;
 }
+body{
+  background-color: rgb(104, 95, 95);
+  overflow-x: hidden;
+}
 
 /*#############################
   Home
@@ -1573,6 +1577,7 @@ body .flexrow .cards {
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   width: 23%;
+
 }
 body .flexrow .cards .face {
   position: absolute;
@@ -1791,7 +1796,7 @@ body .container2 .card:nth-child(4) .face.face2 {
   position: relative;
   text-align: center;
   box-shadow: -1px 15px 30px -12px black;
-  z-index: 9999;
+  z-index: 999;
 }
 
 .clash-card__image {
