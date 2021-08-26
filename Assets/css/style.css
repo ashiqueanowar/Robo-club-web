@@ -1796,7 +1796,7 @@ body .container2 .card:nth-child(4) .face.face2 {
   position: relative;
   text-align: center;
   box-shadow: -1px 15px 30px -12px black;
-  z-index: 999;
+  z-index: 100;
 }
 
 .clash-card__image {
@@ -2195,4 +2195,28 @@ body {
    width: 38px;
    display: block;
    margin-bottom: 30px;
+}
+
+/*#############################
+  footer
+#############################*/
+.footer-p1{
+
+  background: #A6ABA8;
+  color: white;
+  height: 3em;
+}
+
+.footer-p2{
+
+  background: url("/Assets/images/footer-bg.png");
+  height: 20em;
+}
+
+.footer-p3{
+
+  background: #000;
+  color: white;
+  text-align: center;
+  height: 5em;
 }
