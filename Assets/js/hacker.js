@@ -51,7 +51,7 @@ class Robot {
     newRenderer() {
       this.renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
       this.renderer.setSize(this.windowWidth, this.windowHeight);
-      this.renderer.setClearColor(0x9756b2);
+      this.renderer.setClearColor(0x847bcf);
       this.renderer.shadowMap.enabled = true;
       this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
       document.body.appendChild(this.renderer.domElement);
@@ -90,7 +90,7 @@ class Robot {
      */
     newGround() {
       const geometry = new THREE.PlaneGeometry(45, 45);
-      const material = new THREE.MeshLambertMaterial({ color: 0x9555b0 });
+      const material = new THREE.MeshLambertMaterial({ color: 0x231E35 });
       this.ground = new THREE.Mesh(geometry, material);
       this.ground.rotation.x = THREE.Math.degToRad(-90);
       this.ground.position.y = -7;
