@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
 
-html,body {height: 100%;width: 100%;}
+html,body { width: 100%;}
 body {overflow: hidden;background: #9756b2;}
 
 .bot3{
 
+	height: 1vh;
     
 }
 
@@ -14,7 +15,7 @@ body {overflow: hidden;background: #9756b2;}
 	position: fixed;
 	left: 0;
 	right: 0;
-	bottom: 20px;
+	bottom: 50px;
 	margin: 0 auto;
 	width: 280px;
 	text-align: center;
