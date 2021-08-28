@@ -26,7 +26,7 @@ body{
     padding-left: 8em;
     display: flex;
     background: url("/Assets/images/home.jpg") no-repeat center;
-    height: 100vh;
+    height: 90vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -274,7 +274,7 @@ body{
 .col1{
   
   flex: 40%;
-  transform: translateX(10vh) scale(80%);
+  transform: translateX(10vh) translateY(5em) scale(110%);
 }
 .col2{
 
