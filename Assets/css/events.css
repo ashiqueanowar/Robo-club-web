@@ -157,3 +157,15 @@ li {
   -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
 }
+
+.up-comming h3{
+  color: #FFF;
+  font-size: 3em;
+  text-align: center;
+}
+
+.past-events h3{
+  color: #FFF;
+  font-size: 3em;
+  text-align: center;
+}
