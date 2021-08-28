@@ -25,7 +25,7 @@ body{
 .home{
     padding-left: 8em;
     display: flex;
-    background: url("./Assets/images/home.jpg") no-repeat center;
+    background: url("https://ashiqueanowar.github.io/Robo-club-web/Assets/images/home.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -2209,7 +2209,7 @@ body {
 
 .footer-p2{
 
-  background: url("./Assets/images/footer-bg.png");
+  background: url("https://ashiqueanowar.github.io/Robo-club-web/Assets/images/footer-bg.png");
   height: 20em;
 }
 
