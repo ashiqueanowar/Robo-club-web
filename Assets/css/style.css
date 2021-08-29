@@ -274,17 +274,20 @@ body{
 .col1{
   
   flex: 40%;
-  transform: translateX(10vh) translateY(5em) scale(110%);
+  transform: translateX(10vh) translateY(-2em) scale(110%);
 }
 .col2{
-
     flex: 30%;
     padding-right: 20vh;
     text-align: justify;
-
-
+    text-size: 16px;
+    font-family: serif;
 }
-  
+.col2 h1{
+  font-size: 2em;
+  text-align: center;
+  font-size: 2em;
+}
   
   :before, :after {
     content: "";
@@ -1550,6 +1553,11 @@ body{
 #############################*/
 .full_section{
   background-color:rgb(0, 0, 0);
+}
+.updates h1{
+  font-size: 2em;
+  text-align: center;
+  font-size: 2em;
 }
 .updates {
   min-height: 100vh;
