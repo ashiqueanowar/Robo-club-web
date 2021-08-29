@@ -283,7 +283,7 @@ body{
     text-size: 16px;
     font-family: serif;
 }
-h1{
+.col2 h1{
   font-size: 2em;
   text-align: center;
   font-size: 2em;
@@ -1553,6 +1553,11 @@ h1{
 #############################*/
 .full_section{
   background-color:rgb(0, 0, 0);
+}
+.updates h1{
+  font-size: 2em;
+  text-align: center;
+  font-size: 2em;
 }
 .updates {
   min-height: 100vh;
