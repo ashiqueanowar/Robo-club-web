@@ -274,7 +274,7 @@ body{
 .col1{
   
   flex: 40%;
-  transform: translateX(10vh) translateY(-2em) scale(110%);
+  transform: translateX(10vh) translateY(4em) scale(110%);
 }
 .col2{
     flex: 30%;
