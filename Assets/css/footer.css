@@ -1,3 +1,7 @@
+/*#############################
+ social drawer
+#############################*/
+
 .f-top{
 
   display: flex;
@@ -186,4 +190,52 @@ a {
   -moz-transform: translate3d(20px, 30px, 250px);
   -o-transform: translate3d(20px, 30px, 250px);
   transform: translate3d(20px, 30px, 250px);
+}
+
+
+/*#############################
+  robo animation
+#############################*/
+
+.f-animation {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #34496a;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#webgl {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+}
+
+#webgl2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: 2;
+}
+
+#bg-box {
+  width: 802px;
+  height: 602px;
+  position: absolute;
+  z-index: -1;
+}
+
+.svg-box {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  z-index: 1;
+}
+.svg-box #robot {
+  cursor: pointer;
 }
