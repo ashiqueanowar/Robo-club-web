@@ -293,3 +293,9 @@ section  {
     display: none;
   }
 }
+.subnavbtn{
+  list-style: none;
+}
+.fa{
+  display: none;
+}
