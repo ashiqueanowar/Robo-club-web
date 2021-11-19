@@ -275,6 +275,7 @@ body{
   
   flex: 40%;
   transform: translateX(10vh) translateY(4em) scale(110%);
+  justify-content: center;
 }
 .col2{
     flex: 30%;
